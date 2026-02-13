@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.section{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #191a2b;
+}
+.container{
+    padding: 5% 8%;
+}
+.section-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+}
+.section-heading h1{
+    color: white;
+}
+.section-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin: 10px 0px;
+}
+.single-card{
+    width: 330px;
+    height: 350px;
+    border-radius: 40px;
+    border: 0.4px solid #545bf0;
+    padding: 3% 5%;
+}
